@@ -13,11 +13,11 @@ const {
 } = require("@whiskeysockets/baileys");
 const pino = require('pino');
 const chalk = require('chalk');
-const { BOT_TOKEN, allowedDevelopers } = require("./settings/config.js");
+const { BOT_TOKEN, allowedDevelopers } = require("./config.js");
 const crypto = require('crypto');
-const premiumFile = './data/premiumuser.json';
-const ownerFile = './data/owneruser.json';
-const adminFile = './data/admins.json';
+const premiumFile = './premiumuser.json';
+const ownerFile = './owneruser.json';
+const adminFile = './admins.json';
 const TOKENS_FILE = "./tokens.json";
 let bots = [];
 
